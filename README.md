@@ -1,13 +1,13 @@
 # Daily_SIMs
-Simple python code for AI analyst bot to automate daily collection and analysis of indexes, volatility, energy and metals futures, forex rates and bond yields
+Simple python program for an AI analyst bot to automate daily collection and analysis of indexes, volatility, energy and metals futures, forex rates and bond yields.
 
 ## Basic Architecture
 
 ```mermaid
 graph TD;
   Python --> yFinance_APIs;
-  yFinance_APIs --> Notion_integration;
-  Notion_integration --> SIMs_Database;
+  yFinance_APIs --> Notion_Integration;
+  Notion_Integration --> SIMs_Database;
   SIMs_Database --> LLaMA_3.1_API;
   LLaMA_3.1_API --> Analysis_Database;
 ```
