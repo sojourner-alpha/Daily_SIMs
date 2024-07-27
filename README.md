@@ -1,5 +1,5 @@
 # Daily_SIMs
-Simple python program for an AI analyst bot to automate daily collection and analysis of indexes, volatility, energy and metals futures, forex rates and bond yields.
+Simple python program for an AI analyst bot to automate daily collection and analysis of indexes, volatility, energy and metals futures, forex rates and bond yields: Sojourn Insight Metrics (SIMs). 
 
 ## Basic Architecture
 
