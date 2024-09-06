@@ -13,13 +13,13 @@ import json
 # Version: 1.4 - includes a 2 stage LLM analysis = summary of the SIMs, market sentiment and SIMs weighted risk score    
 
 # Set the API token as an environment variable
-os.environ["LLAMA_API_TOKEN"] = "LL-Co3KEtuqAgtPqU5xgDPt3sPjZpqw1y0DVCAqAPlH6a9niH8C0UnanxiMT3x6t5kI"
+os.environ["LLAMA_API_TOKEN"] = "insert ID here"
 
 # Initialize Notion client with your integration token for Daily SIMs
-notion = Client(auth="secret_4LzSmJ7vA27oCpziIqA9fTuhm8IK2t8rZtQWvKGYb38")
+notion = Client(auth="insert token here")
 
-database_id = "f9464d164bd44f039b5352c62df97f1c"  # Daily SIMs database ID
-llm_analysis_database_id = "01e8464c260b4f97ae97f27186c283fb"  # LLM Analysis database ID
+database_id = "insert token here"  # Daily SIMs database ID
+llm_analysis_database_id = "insert token here"  # LLM Analysis database ID
 
 # Initialize Llama API client with api_token
 llama_api_token = os.getenv("LLAMA_API_TOKEN")
